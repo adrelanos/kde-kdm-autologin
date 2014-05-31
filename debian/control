@@ -1,0 +1,26 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+Source: kde-kdm-autologin
+Section: misc
+Priority: optional
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 8), faketime, config-package-dev (>= 5.1)
+Homepage: https://github.com/Whonix/kde-kdm-autologin
+Vcs-Browser: https://github.com/Whonix/kde-kdm-autologin
+Vcs-Git: https://github.com/Whonix/kde-kdm-autologin.git
+Standards-Version: 3.9.4
+
+Package: kde-kdm-autologin
+Architecture: all
+Depends: ${misc:Depends}
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Enables passwordless Autologin in KDM by default
+ This package is most useful in virtual machines, because there it makes less
+ sense to use a password for desktop login (better used on the host).
+ .
+ Also if you are using full disk encryption and are the only user of that
+ machine, the password required for full disk encryption is enough and you may
+ wish not to have an unnecessary extra login screen for the desktop.
