@@ -2,7 +2,7 @@ kde-kdm-autologin (3:0.2-1) unstable; urgency=low
 
   * New upstream version.
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Sun, 17 Aug 2014 17:56:37 +0000
+ -- Patrick Schleizer <adrelanos@riseup.net>  Sun, 17 Aug 2014 20:45:15 +0000
 
 kde-kdm-autologin (3:0.1-2) unstable; urgency=low
 
