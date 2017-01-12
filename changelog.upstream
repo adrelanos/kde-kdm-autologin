@@ -1,3 +1,17 @@
+commit 6fc21deccbd4347b7ef69437b41fe382a2db448d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jan 8 06:40:20 2017 +0000
+
+    port from kdm to sddm
+    
+    since kdm was removed from stretch
+
+commit b130a1af5e26331d51fb02a225378cdbffd522b1
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Dec 10 02:14:12 2016 +0000
+
+    bumped changelog version
+
 commit 5ec5c3abbd7d2775dfa1f3304d194226a3175340
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Nov 21 17:41:27 2016 +0000
