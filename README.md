@@ -1,4 +1,4 @@
-# Enables passwordless Autologin in KDM by default #
+# Enables passwordless Autologin in sddm by default #
 
 This package is most useful in virtual machines, because there it makes less
 sense to use a password for desktop login (better used on the host).
